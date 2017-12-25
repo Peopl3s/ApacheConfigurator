@@ -2,7 +2,7 @@
 #include <QtCore>
 #include "config.h"
 
-Config::Config(QWidget *p,QString conf_):QWidget(p),conf(conf_),settings("Fuck","Config")
+Config::Config(QWidget *p,QString conf_):QWidget(p),conf(conf_),settings("B","Config")
 {
 
     namepage=new QLabel("Настройки параметров");
