@@ -1,0 +1,70 @@
+QLabel#Plug{
+   color:#303284;
+   font-size:20pt;
+   font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+   background-color:#CECECE;
+   min-width: 355px;
+   min-height: 40px;
+   
+   
+}
+
+QLabel#APlug{
+   color:#303284;
+   font-size:14pt;
+   font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+   background-color:#CECECE;
+   min-width: 355px;
+   min-height: 40px;
+   
+   
+}
+
+
+QToolTip {
+    border: 2px solid #d75b39;
+    background-color: #dbd8d8;
+    color:#303284;
+    padding: 5px;
+    font-family:"Droid Serif",Georgia,"Times New Roman",Times,serif;
+    border-radius: 3px;
+    opacity: 500;
+    font-size: 9pt;
+}
+
+
+
+QPushButton{
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2;
+    color: #303284;
+    background-color: #fff;
+    border: 2px solid #303284;
+    min-width: 80px;
+}
+
+QPushButton:hover{
+  background-color:#CECECE;
+}
+
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #8b8b8b, stop: 0.3 #CECECE );
+}
+
+QLabel{
+    color:#303284;
+    font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+    font-size:14px;
+    
+}
+
+
+QTextEdit {
+    background-color: #f7d7c5;
+    color:black;
+    font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+}

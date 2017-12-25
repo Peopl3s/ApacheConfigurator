@@ -1,0 +1,78 @@
+QCheckBox {
+    spacing: 5px;
+    color:#303284;
+    font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+    font-size:14px;
+    
+    
+}
+
+QCheckBox::indicator {
+    width: 25px;
+    height: 25px;
+    
+}
+
+
+
+QCheckBox::indicator:checked {
+    image: url(apachef.png);
+}
+
+QCheckBox::indicator:checked:hover {
+   image: url(hover.png);
+}
+
+QLabel#Plug{
+   color:#303284;
+   font-size:20pt;
+   font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+   background-color:#CECECE;
+   min-width: 355px;
+   min-height: 40px;
+   
+   
+}
+
+
+
+QToolTip {
+    border: 2px solid #d75b39;
+    background-color: #dbd8d8;
+    color:#303284;
+    padding: 5px;
+    font-family:"Droid Serif",Georgia,"Times New Roman",Times,serif;
+    border-radius: 3px;
+    opacity: 500;
+    font-size: 9pt;
+}
+
+
+
+QPushButton{
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 2;
+    color: #303284;
+    background-color: #fff;
+    border: 2px solid #303284;
+    min-width: 80px;
+}
+
+QPushButton:hover{
+  background-color:#CECECE;
+}
+
+
+QPushButton:pressed {
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #8b8b8b, stop: 0.3 #CECECE );
+}
+
+QLabel{
+    color:#303284;
+    font-family: "Droid Serif",Georgia,"Times New Roman",Times,serif;
+    font-size:14px;
+    
+}
