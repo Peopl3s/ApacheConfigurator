@@ -92,7 +92,7 @@ void Directory::changeMainDirectory()
 
     }else{
 
-        qDebug()<<"fuck u";
+        qDebug()<<"er";
 
     }
     ss<<str;
