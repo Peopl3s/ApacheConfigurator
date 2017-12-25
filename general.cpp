@@ -262,13 +262,11 @@ void General::readSettings()
     gs.endGroup();
     qDebug()<<ht;
 
-   // QTimer::singleShot(1000,this,x);
+  
     QTimer::singleShot(1000,[this,ht](){emit selectedFile(ht);});
 
 }
-/* void General::x(){
-     emit selectedFile(xyi);
- }
+
 
 */
 
