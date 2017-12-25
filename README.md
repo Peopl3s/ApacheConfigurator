@@ -1,6 +1,6 @@
 # ApacheConfigurator
-ApacheConfigurator.
-The program is designed to configure <B>httpd.conf</B> file and the server setup Apache 2.2-2.4, according to the defined settings.
+<H1>ApacheConfigurator.</H1>
+The program is designed to configure <B>httpd.conf</B> file and the server setup <B>Apache 2.2-2.4</B>, according to the defined settings.
 
 ![][logo]
 
